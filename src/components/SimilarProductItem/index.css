@@ -1,0 +1,44 @@
+/* Write your CSS here */
+@media screen and (min-width: 768px) {
+  .imageUrl {
+    height: 230px;
+    border-radius: 15px;
+  }
+
+  .title-similar {
+    font-size: 13px;
+  }
+
+  .brand-similar {
+    font-size: 12px;
+  }
+
+  .flex-price-rating {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .price-similar {
+    font-size: 13px;
+  }
+
+  .star-image {
+    height: 13px;
+  }
+
+  .star-price-flex {
+    display: flex;
+    background-color: #3b82f6;
+    align-items: center;
+    height: 20px;
+    color: white;
+    font-size: 13px;
+    padding: 3px;
+    border-radius: 4px;
+  }
+
+  .listed-items {
+    margin-bottom: 20px;
+  }
+}
